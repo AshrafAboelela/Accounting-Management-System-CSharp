@@ -1,0 +1,405 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="12.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E97FF59-9AE1-4E56-B9B3-A923EE48E803}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>accounting_project</RootNamespace>
+    <AssemblyName>accounting project</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <OldToolsVersion>2.0</OldToolsVersion>
+    <UpgradeBackupLocation />
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.BonusSkins.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraBars.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraNavBar.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="Microsoft.ReportViewer.Common, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="Microsoft.ReportViewer.WinForms, Version=11.0.0.0, Culture=neutral, PublicKeyToken=89845dcd8080cc91" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="accountingDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>accountingDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="accountingDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>accountingDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="accountingDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>accountingDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="accountingDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>accountingDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="accountingDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>accountingDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="accountingDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>accountingDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="accountingDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>accountingDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="accountingDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>accountingDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="accounting_code.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accounting_code.Designer.cs">
+      <DependentUpon>accounting_code.cs</DependentUpon>
+    </Compile>
+    <Compile Include="accounting_tree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="accounting_tree.Designer.cs">
+      <DependentUpon>accounting_tree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="allmove_report.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="allmove_report.Designer.cs">
+      <DependentUpon>allmove_report.cs</DependentUpon>
+    </Compile>
+    <Compile Include="banks_type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="banks_type.Designer.cs">
+      <DependentUpon>banks_type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ccurrency_code.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ccurrency_code.Designer.cs">
+      <DependentUpon>ccurrency_code.cs</DependentUpon>
+    </Compile>
+    <Compile Include="days_type.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="days_type.Designer.cs">
+      <DependentUpon>days_type.cs</DependentUpon>
+    </Compile>
+    <Compile Include="deporation_value.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="deporation_value.Designer.cs">
+      <DependentUpon>deporation_value.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainform.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainform.Designer.cs">
+      <DependentUpon>mainform.cs</DependentUpon>
+    </Compile>
+    <Compile Include="movebydatereport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="movebydatereport.Designer.cs">
+      <DependentUpon>movebydatereport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="movements.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="movements.Designer.cs">
+      <DependentUpon>movements.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Person.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="report_acc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report_acc.Designer.cs">
+      <DependentUpon>report_acc.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report_bank.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report_bank.Designer.cs">
+      <DependentUpon>report_bank.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report_tech.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report_tech.Designer.cs">
+      <DependentUpon>report_tech.cs</DependentUpon>
+    </Compile>
+    <Compile Include="report_tree.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="report_tree.Designer.cs">
+      <DependentUpon>report_tree.cs</DependentUpon>
+    </Compile>
+    <Compile Include="retriving_sql.cs" />
+    <Compile Include="server_connection.cs" />
+    <EmbeddedResource Include="accounting_code.resx">
+      <DependentUpon>accounting_code.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="accounting_tree.resx">
+      <DependentUpon>accounting_tree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="allmove_report.resx">
+      <DependentUpon>allmove_report.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="banks_type.resx">
+      <DependentUpon>banks_type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ccurrency_code.resx">
+      <DependentUpon>ccurrency_code.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="days_type.resx">
+      <DependentUpon>days_type.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="deporation_value.resx">
+      <DependentUpon>deporation_value.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainform.resx">
+      <DependentUpon>mainform.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="movebydatereport.resx">
+      <DependentUpon>movebydatereport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="movements.resx">
+      <DependentUpon>movements.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="accounting_reports.rdlc" />
+    <EmbeddedResource Include="all_move_report.rdlc" />
+    <EmbeddedResource Include="banks_types.rdlc" />
+    <EmbeddedResource Include="report_acc.resx">
+      <DependentUpon>report_acc.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_bank.resx">
+      <DependentUpon>report_bank.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_tech.resx">
+      <DependentUpon>report_tech.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="report_tree.resx">
+      <DependentUpon>report_tree.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="tech.rdlc" />
+    <EmbeddedResource Include="tree_e.rdlc" />
+    <EmbeddedResource Include="tree_m.rdlc" />
+    <EmbeddedResource Include="tree_r.rdlc" />
+    <EmbeddedResource Include="tree_s.rdlc" />
+    <None Include="accountingDataSet.xsc">
+      <DependentUpon>accountingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>accountingDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="accountingDataSet.xss">
+      <DependentUpon>accountingDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet1.xsc">
+      <DependentUpon>accountingDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>accountingDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="accountingDataSet1.xss">
+      <DependentUpon>accountingDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet2.xsc">
+      <DependentUpon>accountingDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>accountingDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="accountingDataSet2.xss">
+      <DependentUpon>accountingDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet3.xsc">
+      <DependentUpon>accountingDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>accountingDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="accountingDataSet3.xss">
+      <DependentUpon>accountingDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet4.xsc">
+      <DependentUpon>accountingDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>accountingDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="accountingDataSet4.xss">
+      <DependentUpon>accountingDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet5.xsc">
+      <DependentUpon>accountingDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>accountingDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="accountingDataSet5.xss">
+      <DependentUpon>accountingDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet6.xsc">
+      <DependentUpon>accountingDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>accountingDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="accountingDataSet6.xss">
+      <DependentUpon>accountingDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet7.xsc">
+      <DependentUpon>accountingDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="accountingDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>accountingDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="accountingDataSet7.xss">
+      <DependentUpon>accountingDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="ADODB">
+      <Guid>{2A75196C-D9EB-4129-B803-931327F72D5C}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it.
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

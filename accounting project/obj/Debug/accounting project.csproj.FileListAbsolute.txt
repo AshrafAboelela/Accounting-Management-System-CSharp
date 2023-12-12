@@ -1,0 +1,45 @@
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting project.csprojResolveAssemblyReference.cache
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting_project.Properties.Resources.resources
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting project.csproj.GenerateResource.Cache
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting project.exe.licenses
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\bin\Debug\accounting project.exe
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\bin\Debug\accounting project.pdb
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting project.exe
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting project.pdb
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting_project.accounting_code.resources
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting_project.accounting_tree.resources
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting_project.banks_type.resources
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting_project.ccurrency_code.resources
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting_project.days_type.resources
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting_project.deporation_value.resources
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting_project.mainform.resources
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting_project.movements.resources
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\Interop.ADODB.dll
+C:\Users\ash\Desktop\core 216\Example\accounting project\accounting project\obj\Debug\accounting project.csproj.ResolveComReference.cache
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\Interop.ADODB.dll
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting project.csproj.ResolveComReference.cache
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting project.exe
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting project.pdb
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting project.csprojResolveAssemblyReference.cache
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.accounting_code.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.accounting_tree.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.banks_type.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.ccurrency_code.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.days_type.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.deporation_value.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.mainform.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.movements.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.Properties.Resources.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting project.csproj.GenerateResource.Cache
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting project.exe.licenses
+C:\Users\ash\Desktop\accounting project\accounting project\bin\Debug\accounting project.exe
+C:\Users\ash\Desktop\accounting project\accounting project\bin\Debug\accounting project.pdb
+C:\Users\ash\Desktop\accounting project\accounting project\bin\Debug\accounting project.exe.config
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\RdlCompile.cache
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\RdlCompile.compiled
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.report_tree.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.allmove_report.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.movebydatereport.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.report_acc.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.report_bank.resources
+C:\Users\ash\Desktop\accounting project\accounting project\obj\Debug\accounting_project.report_tech.resources
